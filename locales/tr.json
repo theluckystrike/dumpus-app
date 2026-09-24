@@ -26,7 +26,8 @@
         "The app is working without any readable data stored on the external API. If you still have any questions, feel free to contact us at contact@dumpus.app."
       ],
       "30DaysDelay": "Keep in mind it can take up to 30 days to receive the email. Be patient!",
-      "getData": "How to get my data?"
+      "getData": "How to get my data?",
+      "gotIt": "Anladım!"
     },
     "/": {
       "welcome": "Welcome to Dumpus",
@@ -36,7 +37,8 @@
         "Briefing",
         "Request your data",
         "Start the analysis"
-      ]
+      ],
+      "selectFavoriteLanguage": "Favori dilinizi seçin"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "We’re loading the demo",
           "description": "Please wait..."
-        }
+        },
+        "processing": "İşleniyor",
+        "importing": "İçe aktarılıyor"
       },
       "error": "An error occurred...",
       "unknownPackageId": "This package is unknown.",
       "unauthorized": "You are not allowed to interact with this package data.",
       "invalidLink": "Link invalid.",
       "unknownError": "An unknown error occured.",
-      "expiredLink": "Link expired."
+      "expiredLink": "Link expired.",
+      "missingUserData": "Discord dışa aktarımınızda Kullanıcı veriniz eksik. Verilerinizi tekrar isterken \"Kullanıcı verileri\" seçeneğinin işaretli olduğundan emin olun.",
+      "comeBackLater": "Kapatıp daha sonra dönebilirsiniz."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messages edited",
       "seenNitroAds": "seen nitro ads",
       "spentInVoiceChannels": "spent in voice channels"
-    }
+    },
+    "messages": "{{- value}} mesaj"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "average messages sent per day",
@@ -229,7 +236,8 @@
       "deleting": "Deleting...",
       "delete": "Delete current package",
       "restoring": "Restoring...",
-      "restorePurchases": "Restore purchases"
+      "restorePurchases": "Restore purchases",
+      "addPackage": "Yeni bir paket ekle"
     },
     "about": {
       "title": "About",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Report on GitHub",
     "noInternet": "No Internet Connection",
-    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue."
+    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue.",
+    "error": "Bir hata oluştu..."
   },
   "sheerNumbers": "Sheer numbers",
   "mostActiveDMs": "Most active DMs",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Here is my Discord recap!",
       "description": "Generated on https://dumpus.app, try it yourself!"
-    }
+    },
+    "error": "Bir hata oluştu..."
   },
   "exitingDemo": "Exiting...",
   "exitDemo": "Exit demo and get started!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Top used bots",
   "topChannels": "Top channels",
   "firstMessages": "Your first messages",
-  "relatedGuild": "Related guild"
+  "relatedGuild": "Related guild",
+  "premium": {
+    "premium": "Premium",
+    "buy": "Premium Satın Al",
+    "success": "Erken Destekçisiniz",
+    "thanks": "Bizi desteklediğiniz için teşekkürler!",
+    "supportUs": "Bizi destekleyin!",
+    "earlySupporter": "Erken Destekçi",
+    "reduction": "%60 indirim",
+    "oneTime": "tek seferlik",
+    "supporter": "Destekçi",
+    "soon": "Yakında",
+    "notSupported": "Ödemeler desteklenmiyor",
+    "maybeLater": "Belki sonra",
+    "proceed": "Devam Et",
+    "unavailable": "Kullanılamıyor",
+    "content": [
+      "Discord'da Destekçi rolü",
+      "100+ DM lider tablosu",
+      "Yeni özelliklere erken erişim"
+    ]
+  },
+  "shareImage": {
+    "title": "Discord için İstatistikler",
+    "topDMS": "En İyi DM'ler",
+    "topGuilds": "En iyi sunucular",
+    "getYours": "Sizinkini alın",
+    "talkedWith": "konuştuğunuz kullanıcı sayısı",
+    "messagesSent": "gönderdiğiniz mesaj sayısı",
+    "timeSpent": "Discord'da geçirdiğiniz süre",
+    "appOpenings": "uygulamayı kaç kez açtığınız"
+  },
+  "timeRanges": {
+    "4weeks": "4 hafta",
+    "6months": "6 ay",
+    "year": "Yıl",
+    "lifetime": "Ömür boyu"
+  },
+  "more": "Daha Fazla",
+  "noData": "Veri yok",
+  "noDataTip": "Verileri görüntülemek için başka bir zaman aralığı seçin",
+  "notFound": {
+    "title": "Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil."
+  }
 }
