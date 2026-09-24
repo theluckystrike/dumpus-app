@@ -26,7 +26,8 @@
         "ऐप बाहरी एपीआई पर संग्रहीत किसी भी पठनीय डेटा के बिना काम कर रहा है। यदि आपके पास अभी भी कोई प्रश्न है, तो बेझिझक हमसे contact@dumpus.app पर संपर्क करें।"
       ],
       "30DaysDelay": "ध्यान रखें कि ईमेल प्राप्त होने में 30 दिन तक का समय लग सकता है। धैर्य रखें!",
-      "getData": "मेरा डेटा कैसे प्राप्त करें?"
+      "getData": "मेरा डेटा कैसे प्राप्त करें?",
+      "gotIt": "समझ गया!"
     },
     "/": {
       "welcome": "डंपस में आपका स्वागत है",
@@ -36,7 +37,8 @@
         "ब्रीफिंग",
         "अपने डेटा का अनुरोध करें",
         "विश्लेषण शुरू करें"
-      ]
+      ],
+      "selectFavoriteLanguage": "अपनी पसंदीदा भाषा चुनें"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "We’re loading the demo",
           "description": "Please wait..."
-        }
+        },
+        "processing": "प्रोसेस हो रहा है",
+        "importing": "इम्पोर्ट हो रहा है"
       },
       "error": "An error occurred...",
       "unknownPackageId": "This package is unknown.",
       "unauthorized": "You are not allowed to interact with this package data.",
       "invalidLink": "Link invalid.",
       "unknownError": "An unknown error occured.",
-      "expiredLink": "Link expired."
+      "expiredLink": "Link expired.",
+      "missingUserData": "आपके Discord एक्सपोर्ट में आपका उपयोगकर्ता डेटा नहीं है। दोबारा डेटा मांगते समय, सुनिश्चित करें कि \"उपयोगकर्ता डेटा\" विकल्प चुना हुआ है।",
+      "comeBackLater": "आप बंद करके बाद में वापस आ सकते हैं।"
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messages edited",
       "seenNitroAds": "seen nitro ads",
       "spentInVoiceChannels": "spent in voice channels"
-    }
+    },
+    "messages": "{{- value}} संदेश"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "average messages sent per day",
@@ -229,7 +236,8 @@
       "deleting": "Deleting...",
       "delete": "Delete current package",
       "restoring": "Restoring...",
-      "restorePurchases": "Restore purchases"
+      "restorePurchases": "Restore purchases",
+      "addPackage": "नया पैकेज जोड़ें"
     },
     "about": {
       "title": "About",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Report on GitHub",
     "noInternet": "No Internet Connection",
-    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue."
+    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue.",
+    "error": "कोई त्रुटि हुई..."
   },
   "sheerNumbers": "निरी संख्याएं",
   "mostActiveDMs": "सबसे सक्रिय डीएम",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Here is my Discord recap!",
       "description": "Generated on https://dumpus.app, try it yourself!"
-    }
+    },
+    "error": "कोई त्रुटि हुई..."
   },
   "exitingDemo": "Exiting...",
   "exitDemo": "Exit demo and get started!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Top used bots",
   "topChannels": "Top channels",
   "firstMessages": "Your first messages",
-  "relatedGuild": "Related guild"
+  "relatedGuild": "Related guild",
+  "premium": {
+    "premium": "प्रीमियम",
+    "buy": "प्रीमियम खरीदें",
+    "success": "आप शुरुआती समर्थक हैं",
+    "thanks": "हमारा समर्थन करने के लिए धन्यवाद!",
+    "supportUs": "हमारा समर्थन करें!",
+    "earlySupporter": "शुरुआती समर्थक",
+    "reduction": "60% छूट",
+    "oneTime": "एक बार",
+    "supporter": "समर्थक",
+    "soon": "जल्द ही",
+    "notSupported": "भुगतान समर्थित नहीं है",
+    "maybeLater": "शायद बाद में",
+    "proceed": "आगे बढ़ें",
+    "unavailable": "अनुपलब्ध",
+    "content": [
+      "Discord पर समर्थक भूमिका",
+      "100+ DM तक की लीडरबोर्ड",
+      "नई सुविधाओं तक जल्दी पहुंच"
+    ]
+  },
+  "shareImage": {
+    "title": "Discord के लिए आँकड़े",
+    "topDMS": "शीर्ष DM",
+    "topGuilds": "शीर्ष सर्वर",
+    "getYours": "अपना यहाँ पाएं",
+    "talkedWith": "उन उपयोगकर्ताओं की संख्या जिनसे आपने बात की",
+    "messagesSent": "आपके द्वारा भेजे गए संदेशों की संख्या",
+    "timeSpent": "Discord पर बिताया गया समय",
+    "appOpenings": "आपने ऐप कितनी बार खोला"
+  },
+  "timeRanges": {
+    "4weeks": "4 सप्ताह",
+    "6months": "6 महीने",
+    "year": "वर्ष",
+    "lifetime": "पूरा समय"
+  },
+  "more": "और देखें",
+  "noData": "कोई डेटा उपलब्ध नहीं",
+  "noDataTip": "डेटा देखने के लिए कोई अन्य समय सीमा चुनें",
+  "notFound": {
+    "title": "नहीं मिला",
+    "description": "आप जिस पेज की तलाश कर रहे हैं वह मौजूद नहीं है।"
+  }
 }
