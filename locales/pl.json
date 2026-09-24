@@ -26,7 +26,8 @@
         "Aplikacja działa bez żadnego odczytywania danych przechowywanych w zewnętrznym API. Jeśli masz jakieś pytania, skontaktuj się z nami pod adresem contact@dumpus.app."
       ],
       "30DaysDelay": "Pamiętaj, że otrzymanie wiadomości e-mail może zająć do 30 dni. Bądź cierpliwy!",
-      "getData": "Jak uzyskać moje dane?"
+      "getData": "Jak uzyskać moje dane?",
+      "gotIt": "Jasne!"
     },
     "/": {
       "welcome": "Witamy w Dumpus",
@@ -36,7 +37,8 @@
         "Odprawa",
         "Poproś o swoje dane",
         "Rozpocznij badanie"
-      ]
+      ],
+      "selectFavoriteLanguage": "Wybierz swój ulubiony język"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "Wczytujemy demo",
           "description": "Proszę czekać..."
-        }
+        },
+        "processing": "Przetwarzanie",
+        "importing": "Importowanie"
       },
       "error": "Wystąpił błąd...",
       "unknownPackageId": "Ten pakiet jest nieznany.",
       "unauthorized": "Nie masz uprawnień, aby wchodzić w interakcje z tym pakietem.",
       "invalidLink": "Link jest nieprawidłowy.",
       "unknownError": "Wystąpił nieznany błąd.",
-      "expiredLink": "Link wygasł."
+      "expiredLink": "Link wygasł.",
+      "missingUserData": "Twój eksport z Discorda nie zawiera danych użytkownika. Przy ponownym żądaniu danych upewnij się, że opcja „Dane użytkownika” jest zaznaczona.",
+      "comeBackLater": "Możesz zamknąć i wrócić później."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "edytowane wiadomości",
       "seenNitroAds": "zobaczone reklamy nitro",
       "spentInVoiceChannels": "wydane w kanałach głosowych"
-    }
+    },
+    "messages": "{{- value}} wiadomości"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "średnie wiadomości wysyłane dziennie",
@@ -229,7 +236,8 @@
       "deleting": "Usuwanie...",
       "delete": "Usuń aktualny pakiet",
       "restoring": "Przywracanie...",
-      "restorePurchases": "Przywróć zakupy"
+      "restorePurchases": "Przywróć zakupy",
+      "addPackage": "Dodaj nowy pakiet"
     },
     "about": {
       "title": "O Aplikacji",
@@ -267,7 +275,8 @@
     "retry": "Powtórz",
     "report": "Zgłoś błąd na GitHub",
     "noInternet": "Brak połączenia z Internetem",
-    "noInternetDescription": " Dostęp do Internetu jest niezbędny, aby korzystać z aplikacji Dumpus. Połącz się ponownie z Internetem, aby kontynuować."
+    "noInternetDescription": " Dostęp do Internetu jest niezbędny, aby korzystać z aplikacji Dumpus. Połącz się ponownie z Internetem, aby kontynuować.",
+    "error": "Wystąpił błąd..."
   },
   "sheerNumbers": "Numery skrzynek",
   "mostActiveDMs": "Najbardziej aktywni użytkownicy",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Oto moje podsumowanie z Discorda!",
       "description": "Wygenerowano na https://dumpus.app, wypróbuj teraz!"
-    }
+    },
+    "error": "Wystąpił błąd..."
   },
   "exitingDemo": "Zamykanie...",
   "exitDemo": "Wyjdź z demo i zacznij!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Najczęściej używane boty",
   "topChannels": "Najlepsze kanały",
   "firstMessages": "Twoje pierwsze wiadomości",
-  "relatedGuild": "Powiązany serwer"
+  "relatedGuild": "Powiązany serwer",
+  "premium": {
+    "premium": "Premium",
+    "buy": "Kup Premium",
+    "success": "Jesteś wczesnym wspierającym",
+    "thanks": "Dziękujemy za wsparcie!",
+    "supportUs": "Wesprzyj nas!",
+    "earlySupporter": "Wczesny wspierający",
+    "reduction": "60% zniżki",
+    "oneTime": "jednorazowo",
+    "supporter": "Wspierający",
+    "soon": "Wkrótce",
+    "notSupported": "Płatności nieobsługiwane",
+    "maybeLater": "Może później",
+    "proceed": "Kontynuuj",
+    "unavailable": "Niedostępne",
+    "content": [
+      "Rola wspierającego na Discordzie",
+      "Do 100+ w rankingu DM",
+      "Wczesny dostęp do nowych funkcji"
+    ]
+  },
+  "shareImage": {
+    "title": "Statystyki dla Discorda",
+    "topDMS": "Najlepsze DM",
+    "topGuilds": "Najlepsze serwery",
+    "getYours": "Zdobądź swoje na",
+    "talkedWith": "liczba użytkowników, z którymi rozmawiałeś",
+    "messagesSent": "liczba wysłanych wiadomości",
+    "timeSpent": "czas spędzony na Discordzie",
+    "appOpenings": "liczba otwarć aplikacji"
+  },
+  "timeRanges": {
+    "4weeks": "4 tygodnie",
+    "6months": "6 miesięcy",
+    "year": "Rok",
+    "lifetime": "Cały okres"
+  },
+  "more": "Więcej",
+  "noData": "Brak dostępnych danych",
+  "noDataTip": "Wybierz inny zakres czasu, aby zobaczyć dane",
+  "notFound": {
+    "title": "Nie znaleziono",
+    "description": "Strona, której szukasz, nie istnieje."
+  }
 }
