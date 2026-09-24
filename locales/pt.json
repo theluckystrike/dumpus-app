@@ -26,7 +26,8 @@
         "The app is working without any readable data stored on the external API. If you still have any questions, feel free to contact us at contact@dumpus.app."
       ],
       "30DaysDelay": "Keep in mind it can take up to 30 days to receive the email. Be patient!",
-      "getData": "How to get my data?"
+      "getData": "How to get my data?",
+      "gotIt": "Entendi."
     },
     "/": {
       "welcome": "Welcome to Dumpus",
@@ -36,7 +37,8 @@
         "Briefing",
         "Request your data",
         "Start the analysis"
-      ]
+      ],
+      "selectFavoriteLanguage": "Escolha o seu idioma preferido"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "We’re loading the demo",
           "description": "Please wait..."
-        }
+        },
+        "processing": "Processando",
+        "importing": "Importando"
       },
       "error": "An error occurred...",
       "unknownPackageId": "This package is unknown.",
       "unauthorized": "You are not allowed to interact with this package data.",
       "invalidLink": "Link invalid.",
       "unknownError": "An unknown error occured.",
-      "expiredLink": "Link expired."
+      "expiredLink": "Link expired.",
+      "missingUserData": "Faltam os seus dados de usuário na exportação do Discord. Ao solicitar seus dados novamente, certifique-se de marcar a opção \"User data\".",
+      "comeBackLater": "Pode fechar e voltar mais tarde."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messages edited",
       "seenNitroAds": "seen nitro ads",
       "spentInVoiceChannels": "spent in voice channels"
-    }
+    },
+    "messages": "{{- value}} mensagens"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "average messages sent per day",
@@ -229,7 +236,8 @@
       "deleting": "Deleting...",
       "delete": "Delete current package",
       "restoring": "Restoring...",
-      "restorePurchases": "Restore purchases"
+      "restorePurchases": "Restore purchases",
+      "addPackage": "Adicionar um novo pacote"
     },
     "about": {
       "title": "About",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Report on GitHub",
     "noInternet": "No Internet Connection",
-    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue."
+    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue.",
+    "error": "Ocorreu um erro..."
   },
   "sheerNumbers": "Sheer numbers",
   "mostActiveDMs": "Most active DMs",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Here is my Discord recap!",
       "description": "Generated on https://dumpus.app, try it yourself!"
-    }
+    },
+    "error": "Ocorreu um erro..."
   },
   "exitingDemo": "Exiting...",
   "exitDemo": "Exit demo and get started!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Top used bots",
   "topChannels": "Top channels",
   "firstMessages": "Your first messages",
-  "relatedGuild": "Related guild"
+  "relatedGuild": "Related guild",
+  "premium": {
+    "premium": "Premium",
+    "buy": "Comprar Premium",
+    "success": "É um dos primeiros apoiadores",
+    "thanks": "Obrigado por nos apoiar.",
+    "supportUs": "Apoie-nos.",
+    "earlySupporter": "Apoiador antigo",
+    "reduction": "60% de desconto",
+    "oneTime": "pagamento único",
+    "supporter": "Apoiador",
+    "soon": "Em breve",
+    "notSupported": "Pagamentos não suportados",
+    "maybeLater": "Talvez mais tarde",
+    "proceed": "Continuar",
+    "unavailable": "Indisponível",
+    "content": [
+      "Cargo de apoiador no Discord",
+      "Até mais de 100 DMs na tabela de classificação",
+      "Acesso antecipado a novos recursos"
+    ]
+  },
+  "shareImage": {
+    "title": "Estatísticas do Discord",
+    "topDMS": "Principais DMs",
+    "topGuilds": "Principais servidores",
+    "getYours": "Obtenha o seu em",
+    "talkedWith": "número de usuários com quem você conversou",
+    "messagesSent": "número de mensagens que você enviou",
+    "timeSpent": "tempo que você passou no Discord",
+    "appOpenings": "número de vezes que você abriu o aplicativo"
+  },
+  "timeRanges": {
+    "4weeks": "4 semanas",
+    "6months": "6 meses",
+    "year": "Ano",
+    "lifetime": "Desde sempre"
+  },
+  "more": "Mais",
+  "noData": "Nenhum dado disponível",
+  "noDataTip": "Selecione outro período para ver os dados",
+  "notFound": {
+    "title": "Não encontrado",
+    "description": "A página que você procura não existe."
+  }
 }
