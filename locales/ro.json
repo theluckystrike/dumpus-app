@@ -26,7 +26,8 @@
         "Aplicația funcționează fără date care pot fi citite stocate pe API-ul extern. Dacă mai aveți întrebări, nu ezitați să ne contactați la contact@dumpus.app."
       ],
       "30DaysDelay": "Rețineți că poate dura până la 30 de zile pentru a primi e-mailul. Fii răbdător!",
-      "getData": "Cum să îmi obțin datele?"
+      "getData": "Cum să îmi obțin datele?",
+      "gotIt": "Am înțeles!"
     },
     "/": {
       "welcome": "Bun venit la Dumbus",
@@ -36,7 +37,8 @@
         "Informare",
         "Solicită datele tale",
         "Începe analiza"
-      ]
+      ],
+      "selectFavoriteLanguage": "Selectează limba ta preferată"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "We’re loading the demo",
           "description": "Please wait..."
-        }
+        },
+        "processing": "Se procesează",
+        "importing": "Se importă"
       },
       "error": "An error occurred...",
       "unknownPackageId": "This package is unknown.",
       "unauthorized": "You are not allowed to interact with this package data.",
       "invalidLink": "Link invalid.",
       "unknownError": "An unknown error occured.",
-      "expiredLink": "Link expired."
+      "expiredLink": "Link expired.",
+      "missingUserData": "Exportul tău Discord nu conține datele de utilizator. Când ceri din nou datele, asigură-te că opțiunea „Date utilizator” este bifată.",
+      "comeBackLater": "Poți închide și reveni mai târziu."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messages edited",
       "seenNitroAds": "seen nitro ads",
       "spentInVoiceChannels": "spent in voice channels"
-    }
+    },
+    "messages": "{{- value}} mesaje"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "average messages sent per day",
@@ -229,7 +236,8 @@
       "deleting": "Deleting...",
       "delete": "Delete current package",
       "restoring": "Restoring...",
-      "restorePurchases": "Restore purchases"
+      "restorePurchases": "Restore purchases",
+      "addPackage": "Adaugă un nou pachet"
     },
     "about": {
       "title": "About",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Report on GitHub",
     "noInternet": "No Internet Connection",
-    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue."
+    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue.",
+    "error": "A apărut o eroare..."
   },
   "sheerNumbers": "Cifre simple",
   "mostActiveDMs": "Cele mai active DM-uri",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Here is my Discord recap!",
       "description": "Generated on https://dumpus.app, try it yourself!"
-    }
+    },
+    "error": "A apărut o eroare..."
   },
   "exitingDemo": "Exiting...",
   "exitDemo": "Exit demo and get started!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Top used bots",
   "topChannels": "Top channels",
   "firstMessages": "Your first messages",
-  "relatedGuild": "Related guild"
+  "relatedGuild": "Related guild",
+  "premium": {
+    "premium": "Premium",
+    "buy": "Cumpără Premium",
+    "success": "Ești un susținător timpuriu",
+    "thanks": "Mulțumim pentru sprijin!",
+    "supportUs": "Sprijină-ne!",
+    "earlySupporter": "Susținător timpuriu",
+    "reduction": "Reducere de 60%",
+    "oneTime": "o singură dată",
+    "supporter": "Susținător",
+    "soon": "În curând",
+    "notSupported": "Plățile nu sunt acceptate",
+    "maybeLater": "Poate mai târziu",
+    "proceed": "Continuă",
+    "unavailable": "Indisponibil",
+    "content": [
+      "Rol de susținător pe Discord",
+      "Până la 100+ în clasamentul DM",
+      "Acces timpuriu la funcții noi"
+    ]
+  },
+  "shareImage": {
+    "title": "Statistici pentru Discord",
+    "topDMS": "Cele mai bune DM-uri",
+    "topGuilds": "Cele mai bune servere",
+    "getYours": "Obține-l pe al tău la",
+    "talkedWith": "numărul de utilizatori cu care ai vorbit",
+    "messagesSent": "numărul de mesaje trimise",
+    "timeSpent": "timp petrecut pe Discord",
+    "appOpenings": "de câte ori ai deschis aplicația"
+  },
+  "timeRanges": {
+    "4weeks": "4 săptămâni",
+    "6months": "6 luni",
+    "year": "An",
+    "lifetime": "Întreaga perioadă"
+  },
+  "more": "Mai mult",
+  "noData": "Nicio dată disponibilă",
+  "noDataTip": "Selectează alt interval de timp pentru a vedea datele",
+  "notFound": {
+    "title": "Nu a fost găsit",
+    "description": "Pagina pe care o cauți nu există."
+  }
 }
