@@ -26,7 +26,8 @@
         "The app is working without any readable data stored on the external API. If you still have any questions, feel free to contact us at contact@dumpus.app."
       ],
       "30DaysDelay": "Keep in mind it can take up to 30 days to receive the email. Be patient!",
-      "getData": "How to get my data?"
+      "getData": "How to get my data?",
+      "gotIt": "Siap!"
     },
     "/": {
       "welcome": "Welcome to Dumpus",
@@ -36,7 +37,8 @@
         "Briefing",
         "Request your data",
         "Start the analysis"
-      ]
+      ],
+      "selectFavoriteLanguage": "Pilih bahasa favoritmu"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "We’re loading the demo",
           "description": "Please wait..."
-        }
+        },
+        "processing": "Memproses",
+        "importing": "Mengimpor"
       },
       "error": "An error occurred...",
       "unknownPackageId": "This package is unknown.",
       "unauthorized": "You are not allowed to interact with this package data.",
       "invalidLink": "Link invalid.",
       "unknownError": "An unknown error occured.",
-      "expiredLink": "Link expired."
+      "expiredLink": "Link expired.",
+      "missingUserData": "Ekspor Discord-mu tidak menyertakan data Pengguna. Saat meminta data lagi, pastikan opsi \"Data pengguna\" dicentang.",
+      "comeBackLater": "Kamu bisa menutup dan kembali lagi nanti."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messages edited",
       "seenNitroAds": "seen nitro ads",
       "spentInVoiceChannels": "spent in voice channels"
-    }
+    },
+    "messages": "{{- value}} pesan"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "average messages sent per day",
@@ -229,7 +236,8 @@
       "deleting": "Deleting...",
       "delete": "Delete current package",
       "restoring": "Restoring...",
-      "restorePurchases": "Restore purchases"
+      "restorePurchases": "Restore purchases",
+      "addPackage": "Tambahkan paket baru"
     },
     "about": {
       "title": "About",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Report on GitHub",
     "noInternet": "No Internet Connection",
-    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue."
+    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue.",
+    "error": "Terjadi kesalahan..."
   },
   "sheerNumbers": "Sheer numbers",
   "mostActiveDMs": "Most active DMs",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Here is my Discord recap!",
       "description": "Generated on https://dumpus.app, try it yourself!"
-    }
+    },
+    "error": "Terjadi kesalahan..."
   },
   "exitingDemo": "Exiting...",
   "exitDemo": "Exit demo and get started!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Top used bots",
   "topChannels": "Top channels",
   "firstMessages": "Your first messages",
-  "relatedGuild": "Related guild"
+  "relatedGuild": "Related guild",
+  "premium": {
+    "premium": "Premium",
+    "buy": "Beli Premium",
+    "success": "Kamu Pendukung Awal",
+    "thanks": "Terima kasih sudah mendukung kami!",
+    "supportUs": "Dukung kami!",
+    "earlySupporter": "Pendukung Awal",
+    "reduction": "Diskon 60%",
+    "oneTime": "sekali bayar",
+    "supporter": "Pendukung",
+    "soon": "Segera",
+    "notSupported": "Pembayaran tidak didukung",
+    "maybeLater": "Mungkin nanti",
+    "proceed": "Lanjut",
+    "unavailable": "Tidak tersedia",
+    "content": [
+      "Peran Pendukung di Discord",
+      "Papan peringkat hingga 100+ DM",
+      "Akses awal ke fitur baru"
+    ]
+  },
+  "shareImage": {
+    "title": "Statistik untuk Discord",
+    "topDMS": "DM Teratas",
+    "topGuilds": "Server teratas",
+    "getYours": "Dapatkan milikmu di",
+    "talkedWith": "jumlah pengguna yang kamu ajak bicara",
+    "messagesSent": "jumlah pesan yang kamu kirim",
+    "timeSpent": "waktu yang dihabiskan di Discord",
+    "appOpenings": "berapa kali kamu membuka aplikasi"
+  },
+  "timeRanges": {
+    "4weeks": "4 minggu",
+    "6months": "6 bulan",
+    "year": "Tahun",
+    "lifetime": "Sepanjang masa"
+  },
+  "more": "Lainnya",
+  "noData": "Tidak ada data",
+  "noDataTip": "Pilih rentang waktu lain untuk melihat data",
+  "notFound": {
+    "title": "Tidak ditemukan",
+    "description": "Halaman yang kamu cari tidak ada."
+  }
 }
