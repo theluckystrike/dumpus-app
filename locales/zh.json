@@ -26,7 +26,8 @@
         "該應用程序無需外部 API 上存儲任何可讀數據即可運行。如果您仍有任何疑問，請隨時通過 contact@dumpus.app 與我們聯繫。"
       ],
       "30DaysDelay": "請記住，最多可能需要 30 天才能收到電子郵件。要有耐心！",
-      "getData": "如何獲取我的資料?"
+      "getData": "如何獲取我的資料?",
+      "gotIt": "知道了！"
     },
     "/": {
       "welcome": "歡迎來到 Dumpus",
@@ -36,7 +37,8 @@
         "Briefing",
         "請求你的資料",
         "開始分析"
-      ]
+      ],
+      "selectFavoriteLanguage": "选择你喜欢的语言"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "我們正在加載演示",
           "description": "請稍等..."
-        }
+        },
+        "processing": "处理中",
+        "importing": "导入中"
       },
       "error": "發生了一個錯誤...",
       "unknownPackageId": "未知的包裹",
       "unauthorized": "您無權與此包數據進行交互",
       "invalidLink": "鏈接無效",
       "unknownError": "出現未知錯誤",
-      "expiredLink": "鏈接已過期"
+      "expiredLink": "鏈接已過期",
+      "missingUserData": "你的 Discord 导出缺少用户数据。再次请求数据时，请确保勾选“用户数据”选项。",
+      "comeBackLater": "你可以关闭页面，稍后再回来。"
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "編輯訊息",
       "seenNitroAds": "查看nitro廣告",
       "spentInVoiceChannels": "花費時間在語音頻道上"
-    }
+    },
+    "messages": "{{- value}} 条消息"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "平均每天發送的訊息數",
@@ -229,7 +236,8 @@
       "deleting": "刪除中⋯",
       "delete": "刪除當前包",
       "restoring": "正在恢復...",
-      "restorePurchases": "恢復購買"
+      "restorePurchases": "恢復購買",
+      "addPackage": "添加新数据包"
     },
     "about": {
       "title": "關於",
@@ -267,7 +275,8 @@
     "retry": "重試",
     "report": "透過 GitHub 反饋",
     "noInternet": "沒有網路連線",
-    "noInternetDescription": "使用 Dumpus 應用程序需要訪問網路。請重新連接到網路以繼續。"
+    "noInternetDescription": "使用 Dumpus 應用程序需要訪問網路。請重新連接到網路以繼續。",
+    "error": "发生错误……"
   },
   "sheerNumbers": "Sheer numbers",
   "mostActiveDMs": "最活躍的私訊",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "這是我的 Discord 回顧！",
       "description": "在 https://dumpus.app 上生成，自己嘗試一下！"
-    }
+    },
+    "error": "发生错误……"
   },
   "exitingDemo": "正在退出...",
   "exitDemo": "退出演示並開始！",
@@ -300,5 +310,49 @@
   "topUsedBot": "最常用的機器人",
   "topChannels": "熱門頻道",
   "firstMessages": "您的第一條消息",
-  "relatedGuild": "相關伺服器"
+  "relatedGuild": "相關伺服器",
+  "premium": {
+    "premium": "高级版",
+    "buy": "购买高级版",
+    "success": "你是早期支持者",
+    "thanks": "感谢你的支持！",
+    "supportUs": "支持我们！",
+    "earlySupporter": "早期支持者",
+    "reduction": "立减 60%",
+    "oneTime": "一次性",
+    "supporter": "支持者",
+    "soon": "即将推出",
+    "notSupported": "暂不支持支付",
+    "maybeLater": "稍后再说",
+    "proceed": "继续",
+    "unavailable": "不可用",
+    "content": [
+      "Discord 上的支持者身份",
+      "最多 100+ 私信排行榜",
+      "抢先体验新功能"
+    ]
+  },
+  "shareImage": {
+    "title": "Discord 统计",
+    "topDMS": "热门私信",
+    "topGuilds": "热门服务器",
+    "getYours": "在以下位置获取你的",
+    "talkedWith": "你聊过的人数",
+    "messagesSent": "你发送的消息数",
+    "timeSpent": "在 Discord 上花费的时间",
+    "appOpenings": "你打开应用的次数"
+  },
+  "timeRanges": {
+    "4weeks": "4 周",
+    "6months": "6 个月",
+    "year": "今年",
+    "lifetime": "全部时间"
+  },
+  "more": "更多",
+  "noData": "暂无数据",
+  "noDataTip": "选择其他时间范围以查看数据",
+  "notFound": {
+    "title": "未找到",
+    "description": "你查找的页面不存在。"
+  }
 }
