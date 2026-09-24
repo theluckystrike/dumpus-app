@@ -26,7 +26,8 @@
         "The app is working without any readable data stored on the external API. If you still have any questions, feel free to contact us at contact@dumpus.app."
       ],
       "30DaysDelay": "Keep in mind it can take up to 30 days to receive the email. Be patient!",
-      "getData": "How to get my data?"
+      "getData": "How to get my data?",
+      "gotIt": "فهمت!"
     },
     "/": {
       "welcome": "Welcome to Dumpus",
@@ -36,7 +37,8 @@
         "Briefing",
         "Request your data",
         "Start the analysis"
-      ]
+      ],
+      "selectFavoriteLanguage": "اختر لغتك المفضلة"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "We’re loading the demo",
           "description": "Please wait..."
-        }
+        },
+        "processing": "جارٍ المعالجة",
+        "importing": "جارٍ الاستيراد"
       },
       "error": "An error occurred...",
       "unknownPackageId": "This package is unknown.",
       "unauthorized": "You are not allowed to interact with this package data.",
       "invalidLink": "Link invalid.",
       "unknownError": "An unknown error occured.",
-      "expiredLink": "Link expired."
+      "expiredLink": "Link expired.",
+      "missingUserData": "تصدير ديسكورد الخاص بك يفتقد بيانات المستخدم. عند طلب بياناتك مرة أخرى، تأكد من تحديد خيار \"بيانات المستخدم\".",
+      "comeBackLater": "يمكنك الإغلاق والعودة لاحقًا."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messages edited",
       "seenNitroAds": "seen nitro ads",
       "spentInVoiceChannels": "spent in voice channels"
-    }
+    },
+    "messages": "{{- value}} رسائل"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "average messages sent per day",
@@ -229,7 +236,8 @@
       "deleting": "Deleting...",
       "delete": "Delete current package",
       "restoring": "Restoring...",
-      "restorePurchases": "Restore purchases"
+      "restorePurchases": "Restore purchases",
+      "addPackage": "إضافة حزمة جديدة"
     },
     "about": {
       "title": "About",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Report on GitHub",
     "noInternet": "No Internet Connection",
-    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue."
+    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue.",
+    "error": "حدث خطأ ما..."
   },
   "sheerNumbers": "Sheer numbers",
   "mostActiveDMs": "Most active DMs",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Here is my Discord recap!",
       "description": "Generated on https://dumpus.app, try it yourself!"
-    }
+    },
+    "error": "حدث خطأ ما..."
   },
   "exitingDemo": "Exiting...",
   "exitDemo": "Exit demo and get started!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Top used bots",
   "topChannels": "Top channels",
   "firstMessages": "Your first messages",
-  "relatedGuild": "Related guild"
+  "relatedGuild": "Related guild",
+  "premium": {
+    "premium": "بريميوم",
+    "buy": "اشترِ بريميوم",
+    "success": "أنت داعم مبكر",
+    "thanks": "شكرًا لدعمك لنا!",
+    "supportUs": "ادعمنا!",
+    "earlySupporter": "داعم مبكر",
+    "reduction": "خصم 60%",
+    "oneTime": "مرة واحدة",
+    "supporter": "داعم",
+    "soon": "قريبًا",
+    "notSupported": "الدفع غير مدعوم",
+    "maybeLater": "ربما لاحقًا",
+    "proceed": "متابعة",
+    "unavailable": "غير متاح",
+    "content": [
+      "دور الداعم على ديسكورد",
+      "لوحة صدارة حتى 100+ رسالة خاصة",
+      "وصول مبكر إلى الميزات الجديدة"
+    ]
+  },
+  "shareImage": {
+    "title": "إحصائيات لديسكورد",
+    "topDMS": "أعلى الرسائل الخاصة",
+    "topGuilds": "أعلى الخوادم",
+    "getYours": "احصل على نسختك من",
+    "talkedWith": "عدد المستخدمين الذين تحدثت معهم",
+    "messagesSent": "عدد الرسائل التي أرسلتها",
+    "timeSpent": "الوقت الذي قضيته على ديسكورد",
+    "appOpenings": "عدد مرات فتحك للتطبيق"
+  },
+  "timeRanges": {
+    "4weeks": "4 أسابيع",
+    "6months": "6 أشهر",
+    "year": "سنة",
+    "lifetime": "كل الفترة"
+  },
+  "more": "المزيد",
+  "noData": "لا توجد بيانات متاحة",
+  "noDataTip": "اختر نطاقًا زمنيًا آخر لعرض البيانات",
+  "notFound": {
+    "title": "غير موجود",
+    "description": "الصفحة التي تبحث عنها غير موجودة."
+  }
 }
