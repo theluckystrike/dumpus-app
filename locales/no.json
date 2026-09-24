@@ -26,7 +26,8 @@
         "Appen fungerer uten noe lesbar data lagret på det eksterne API-et. Hvis du uansett har noen spørsmål, ta gjerne kontakt med oss på contact@dumpus.app."
       ],
       "30DaysDelay": "Husk at det kan ta opptil 30 dager å motta e-posten. Vær tolmodig!",
-      "getData": "Hvordan skaffer jeg datapakken?"
+      "getData": "Hvordan skaffer jeg datapakken?",
+      "gotIt": "Skjønner!"
     },
     "/": {
       "welcome": "Velkommen til Dumpus",
@@ -36,7 +37,8 @@
         "Oppsummering",
         "Be om dataene dine",
         "Start analysen"
-      ]
+      ],
+      "selectFavoriteLanguage": "Velg ditt favorittspråk"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "Vi laster ned demoen",
           "description": "Vennligst vent..."
-        }
+        },
+        "processing": "Behandler",
+        "importing": "Importerer"
       },
       "error": "En feil oppstod...",
       "unknownPackageId": "Denne pakken er ukjent.",
       "unauthorized": "Du har ikke tillatelse til å utføre handlinger med disse pakkedataene.",
       "invalidLink": "Lenken er ugyldig.",
       "unknownError": "En ukjent feil oppstod.",
-      "expiredLink": "Lenken har utløpt."
+      "expiredLink": "Lenken har utløpt.",
+      "missingUserData": "Discord-eksporten din mangler brukerdata. Når du ber om dataene på nytt, sørg for at alternativet „Brukerdata” er merket av.",
+      "comeBackLater": "Du kan lukke og komme tilbake senere."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "meldinger endret",
       "seenNitroAds": "nitro annonser sett",
       "spentInVoiceChannels": "brukt i talekanaler"
-    }
+    },
+    "messages": "{{- value}} meldinger"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "gjennomsnittlig meldinger sendt per dag",
@@ -229,7 +236,8 @@
       "deleting": "Sletter...",
       "delete": "Slett gjeldende pakke",
       "restoring": "Gjenoppretter...",
-      "restorePurchases": "Gjenopprett kjøp"
+      "restorePurchases": "Gjenopprett kjøp",
+      "addPackage": "Legg til en ny pakke"
     },
     "about": {
       "title": "Om",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Rapporter på GitHub",
     "noInternet": "Ingen internettforbindelse",
-    "noInternetDescription": " Internett-tilgang er nødvendig for å bruke Dumpus appen. Vennligst koble til internett på nytt for å fortsette."
+    "noInternetDescription": " Internett-tilgang er nødvendig for å bruke Dumpus appen. Vennligst koble til internett på nytt for å fortsette.",
+    "error": "Det oppstod en feil..."
   },
   "sheerNumbers": "Rene tall",
   "mostActiveDMs": "Mest aktive direktemeldinger",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Her er mitt Discord recap!",
       "description": "Generert på https://dumpus.app, prøv det selv!"
-    }
+    },
+    "error": "Det oppstod en feil..."
   },
   "exitingDemo": "Avslutter...",
   "exitDemo": "Avslutt demo og kom i gang!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Most brukte botter",
   "topChannels": "Mest brukte kanaler",
   "firstMessages": "Dine første meldinger",
-  "relatedGuild": "Relatert server"
+  "relatedGuild": "Relatert server",
+  "premium": {
+    "premium": "Premium",
+    "buy": "Kjøp Premium",
+    "success": "Du er en tidlig støttespiller",
+    "thanks": "Takk for at du støtter oss!",
+    "supportUs": "Støtt oss!",
+    "earlySupporter": "Tidlig støttespiller",
+    "reduction": "60 % avslag",
+    "oneTime": "engangs",
+    "supporter": "Støttespiller",
+    "soon": "Snart",
+    "notSupported": "Betalinger støttes ikke",
+    "maybeLater": "Kanskje senere",
+    "proceed": "Fortsett",
+    "unavailable": "Utilgjengelig",
+    "content": [
+      "Støttespiller-rolle på Discord",
+      "Opptil 100+ i DM-rangering",
+      "Tidlig tilgang til nye funksjoner"
+    ]
+  },
+  "shareImage": {
+    "title": "Statistikk for Discord",
+    "topDMS": "Topp DM-er",
+    "topGuilds": "Topp-servere",
+    "getYours": "Få din på",
+    "talkedWith": "antall brukere du har snakket med",
+    "messagesSent": "antall meldinger du har sendt",
+    "timeSpent": "tid brukt på Discord",
+    "appOpenings": "antall ganger du åpnet appen"
+  },
+  "timeRanges": {
+    "4weeks": "4 uker",
+    "6months": "6 måneder",
+    "year": "År",
+    "lifetime": "Hele perioden"
+  },
+  "more": "Mer",
+  "noData": "Ingen data tilgjengelig",
+  "noDataTip": "Velg et annet tidsrom for å se data",
+  "notFound": {
+    "title": "Ikke funnet",
+    "description": "Siden du leter etter finnes ikke."
+  }
 }
