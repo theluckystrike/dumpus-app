@@ -26,7 +26,8 @@
         "L'app funziona senza alcun dato leggibile memorizzato sull'API esterna. Se hai ancora domande, non esitare a contattarci a contact@dumpus.app."
       ],
       "30DaysDelay": "Tieni a mente che può richiedere fino a 30 giorni ricevere l'email. Sii paziente!",
-      "getData": "Come ottenere i miei dati?"
+      "getData": "Come ottenere i miei dati?",
+      "gotIt": "Ricevuto!"
     },
     "/": {
       "welcome": "Benvenuto su Dumpus",
@@ -36,7 +37,8 @@
         "Sintesi",
         "Richiedi i tuoi dati",
         "Avvia l'analisi"
-      ]
+      ],
+      "selectFavoriteLanguage": "Seleziona la tua lingua preferita"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "Stiamo caricando la demo",
           "description": "Attendere prego..."
-        }
+        },
+        "processing": "Elaborazione",
+        "importing": "Importazione"
       },
       "error": "Si è verificato un errore...",
       "unknownPackageId": "Questo pacchetto è sconosciuto.",
       "unauthorized": "Non hai il permesso di interagire con questo pacchetto dati.",
       "invalidLink": "Link non valido.",
       "unknownError": "Si è verificato un errore imprevisto.",
-      "expiredLink": "Link scaduto."
+      "expiredLink": "Link scaduto.",
+      "missingUserData": "Il tuo export di Discord non contiene i dati utente. Quando richiedi di nuovo i dati, assicurati che l'opzione „Dati utente” sia selezionata.",
+      "comeBackLater": "Puoi chiudere e tornare più tardi."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messaggi modificati",
       "seenNitroAds": "pubblicità nitro viste",
       "spentInVoiceChannels": "spesi nei canali vocali"
-    }
+    },
+    "messages": "{{- value}} messaggi"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "media messaggi inviati al giorno",
@@ -229,7 +236,8 @@
       "deleting": "Cancellazione in corso...",
       "delete": "Elimina il pacchetto attuale",
       "restoring": "Ripristino in corso...",
-      "restorePurchases": "Ripristina gli acquisti"
+      "restorePurchases": "Ripristina gli acquisti",
+      "addPackage": "Aggiungi un nuovo pacchetto"
     },
     "about": {
       "title": "Informazioni",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Segnala su GitHub",
     "noInternet": "Nessuna Connessione a Internet",
-    "noInternetDescription": " L'accesso a Internet è necessario per utilizzare l'app Dumpus. Si prega di riconnettersi a Internet per continuare."
+    "noInternetDescription": " L'accesso a Internet è necessario per utilizzare l'app Dumpus. Si prega di riconnettersi a Internet per continuare.",
+    "error": "Si è verificato un errore..."
   },
   "sheerNumbers": "Numeri puri",
   "mostActiveDMs": "DM più attivi",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Ecco il mio Riepilogo Discord!",
       "description": "Generato su https://dumpus.app, prova tu stesso!"
-    }
+    },
+    "error": "Si è verificato un errore..."
   },
   "exitingDemo": "Uscendo...",
   "exitDemo": "Esci dalla demo e inizia!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Bot più usati",
   "topChannels": "Canali principali",
   "firstMessages": "I tuoi primi messaggi",
-  "relatedGuild": "Server correlato"
+  "relatedGuild": "Server correlato",
+  "premium": {
+    "premium": "Premium",
+    "buy": "Acquista Premium",
+    "success": "Sei un sostenitore anticipato",
+    "thanks": "Grazie per il tuo supporto!",
+    "supportUs": "Sostienici!",
+    "earlySupporter": "Sostenitore anticipato",
+    "reduction": "60% di sconto",
+    "oneTime": "una tantum",
+    "supporter": "Sostenitore",
+    "soon": "Presto",
+    "notSupported": "Pagamenti non supportati",
+    "maybeLater": "Forse più tardi",
+    "proceed": "Procedi",
+    "unavailable": "Non disponibile",
+    "content": [
+      "Ruolo di sostenitore su Discord",
+      "Fino a 100+ nella classifica DM",
+      "Accesso anticipato alle nuove funzionalità"
+    ]
+  },
+  "shareImage": {
+    "title": "Statistiche per Discord",
+    "topDMS": "Migliori DM",
+    "topGuilds": "Migliori server",
+    "getYours": "Ottieni il tuo su",
+    "talkedWith": "numero di utenti con cui hai parlato",
+    "messagesSent": "numero di messaggi inviati",
+    "timeSpent": "tempo trascorso su Discord",
+    "appOpenings": "numero di volte in cui hai aperto l'app"
+  },
+  "timeRanges": {
+    "4weeks": "4 settimane",
+    "6months": "6 mesi",
+    "year": "Anno",
+    "lifetime": "Tutto il periodo"
+  },
+  "more": "Altro",
+  "noData": "Nessun dato disponibile",
+  "noDataTip": "Seleziona un altro intervallo di tempo per vedere i dati",
+  "notFound": {
+    "title": "Non trovato",
+    "description": "La pagina che stai cercando non esiste."
+  }
 }
