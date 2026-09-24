@@ -26,7 +26,8 @@
         "این برنامه بدون هیچ داده قابل خواندن ذخیره شده در رابط برنامه نویسی کاربردی خارجی کار میکند."
       ],
       "30DaysDelay": "لطفا به یاد داشته باشید که بیش از 30 روز طول میکشد تا ایمیل را دریافت کنید. صبور باشید!",
-      "getData": "چطور داده های خود را دریافت کنم؟"
+      "getData": "چطور داده های خود را دریافت کنم؟",
+      "gotIt": "متوجه شدم!"
     },
     "/": {
       "welcome": "به دامپوس خوش آمدید!",
@@ -36,7 +37,8 @@
         "خلاصه سازی",
         "اطلاعات خود را درخواست کنید",
         "تحلیل و بررسی را شروع کنید"
-      ]
+      ],
+      "selectFavoriteLanguage": "زبان موردعلاقه‌تان را انتخاب کنید"
     },
     "slides": [
       {
@@ -125,14 +127,18 @@
         "loadingDemo": {
           "title": "We’re loading the demo",
           "description": "Please wait..."
-        }
+        },
+        "processing": "در حال پردازش",
+        "importing": "در حال وارد کردن"
       },
       "error": "An error occurred...",
       "unknownPackageId": "This package is unknown.",
       "unauthorized": "You are not allowed to interact with this package data.",
       "invalidLink": "Link invalid.",
       "unknownError": "An unknown error occured.",
-      "expiredLink": "Link expired."
+      "expiredLink": "Link expired.",
+      "missingUserData": "خروجی دیسکورد شما داده‌های کاربر را ندارد. هنگام درخواست مجدد داده‌ها، مطمئن شوید گزینه «داده‌های کاربر» علامت‌خورده باشد.",
+      "comeBackLater": "می‌توانید ببندید و بعداً برگردید."
     }
   },
   "stats": {
@@ -179,7 +185,8 @@
       "editedMessages": "messages edited",
       "seenNitroAds": "seen nitro ads",
       "spentInVoiceChannels": "spent in voice channels"
-    }
+    },
+    "messages": "{{- value}} پیام"
   },
   "sendingTimeStats": {
     "messagesSentPerDay": "average messages sent per day",
@@ -229,7 +236,8 @@
       "deleting": "Deleting...",
       "delete": "Delete current package",
       "restoring": "Restoring...",
-      "restorePurchases": "Restore purchases"
+      "restorePurchases": "Restore purchases",
+      "addPackage": "افزودن بسته جدید"
     },
     "about": {
       "title": "About",
@@ -267,7 +275,8 @@
     "retry": "Retry",
     "report": "Report on GitHub",
     "noInternet": "No Internet Connection",
-    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue."
+    "noInternetDescription": " Internet access is necessary to use the Dumpus app. Please reconnect to the Internet to continue.",
+    "error": "خطایی رخ داد..."
   },
   "sheerNumbers": "اعداد محض",
   "mostActiveDMs": "فعال ترین DM ها",
@@ -286,7 +295,8 @@
     "popup": {
       "title": "Here is my Discord recap!",
       "description": "Generated on https://dumpus.app, try it yourself!"
-    }
+    },
+    "error": "خطایی رخ داد..."
   },
   "exitingDemo": "Exiting...",
   "exitDemo": "Exit demo and get started!",
@@ -300,5 +310,49 @@
   "topUsedBot": "Top used bots",
   "topChannels": "Top channels",
   "firstMessages": "Your first messages",
-  "relatedGuild": "Related guild"
+  "relatedGuild": "Related guild",
+  "premium": {
+    "premium": "پریمیوم",
+    "buy": "خرید پریمیوم",
+    "success": "شما یک حامی اولیه هستید",
+    "thanks": "ممنون که از ما حمایت می‌کنید!",
+    "supportUs": "از ما حمایت کنید!",
+    "earlySupporter": "حامی اولیه",
+    "reduction": "۶۰٪ تخفیف",
+    "oneTime": "یک‌بار",
+    "supporter": "حامی",
+    "soon": "به‌زودی",
+    "notSupported": "پرداخت پشتیبانی نمی‌شود",
+    "maybeLater": "شاید بعداً",
+    "proceed": "ادامه",
+    "unavailable": "در دسترس نیست",
+    "content": [
+      "نقش حامی در دیسکورد",
+      "جدول رتبه‌بندی تا ۱۰۰+ پیام خصوصی",
+      "دسترسی زودهنگام به امکانات جدید"
+    ]
+  },
+  "shareImage": {
+    "title": "آمار برای دیسکورد",
+    "topDMS": "بیشترین پیام‌های خصوصی",
+    "topGuilds": "بیشترین سرورها",
+    "getYours": "نسخه خودتان را از اینجا بگیرید",
+    "talkedWith": "تعداد کاربرانی که با آن‌ها گفتگو کرده‌اید",
+    "messagesSent": "تعداد پیام‌هایی که فرستاده‌اید",
+    "timeSpent": "زمان صرف‌شده در دیسکورد",
+    "appOpenings": "تعداد دفعاتی که برنامه را باز کرده‌اید"
+  },
+  "timeRanges": {
+    "4weeks": "۴ هفته",
+    "6months": "۶ ماه",
+    "year": "سال",
+    "lifetime": "کل دوره"
+  },
+  "more": "بیشتر",
+  "noData": "داده‌ای در دسترس نیست",
+  "noDataTip": "برای مشاهده داده‌ها بازه زمانی دیگری انتخاب کنید",
+  "notFound": {
+    "title": "پیدا نشد",
+    "description": "صفحه‌ای که به دنبال آن هستید وجود ندارد."
+  }
 }
